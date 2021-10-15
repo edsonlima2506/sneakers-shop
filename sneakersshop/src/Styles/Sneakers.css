@@ -1,0 +1,113 @@
+.container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sneakerCard {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: inherit;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sneakerCard::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.imageSneaker {
+    width: 300px;
+    /* transform: rotate(25deg); */
+}
+
+.sneakerCard h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.sneakerCard h2 {
+   color: #fff
+}
+
+.button {
+    border: none;
+    width: 130px;
+    height: 50px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+}
+
+#buyNow {
+    margin-left: 20px;
+    background-image: linear-gradient(#E84187, #F45598);
+}
+
+#buyNow:hover {
+    background: #ff026c;
+}
+
+#addToCart {
+    background-color: #9b9b9b;
+}
+
+#addToCart:hover {
+    background-color: #636569;
+}
+
+.antesDepois {
+    position: relative;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: inherit;
+    overflow: hidden;
+    z-index: 1;
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.antesDepois::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.sneakerInfos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    margin-left: 150px;
+}
