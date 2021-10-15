@@ -16,10 +16,19 @@ header {
   align-items: center;
 }
 
-.bgVideo {
-  width: 100%;
-  height: 800px;
+.principalSneaker {
+  width: 600px;
+  position: absolute;
   margin-top: 150px;
+  transform: rotateY(180deg);
+}
+
+.adidas {
+  position: absolute;
+  color: #E84187;
+  font-size: 200px;
+  margin-top: 150px;
+  z-index: -1;
 }
 
 .topMenu {
@@ -54,7 +63,7 @@ header {
 }
 
 .headerButtons {
-  margin-top: 560px;
+  margin-top: 530px;
 }
 
 .btn {
@@ -71,7 +80,7 @@ header {
 }
 
 .seeMore {
-  background-image: linear-gradient(#646464, rgb(159, 160, 160));
+  background-color: rgb(159, 160, 160);
 }
 
 .buyNow {
@@ -80,7 +89,7 @@ header {
 
 .seeMore:hover {
   background: none;
-  border: #636569 3px solid;
+  border: rgb(159, 160, 160) 3px solid;
 }
 
 .buyNow:hover {

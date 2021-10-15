@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 25%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: inherit;
+    overflow: hidden;
+    z-index: 1;
+    margin: 30px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.sneaker {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.name {
+    color: #fff;
+    text-align: left;
+}
+
+.price {
+    color: #fff;
+    text-align: left;
+}
+
+.infos { 
+    margin-left: -110px;
+}
+
+.porcentage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    background-color: #E84187;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+}

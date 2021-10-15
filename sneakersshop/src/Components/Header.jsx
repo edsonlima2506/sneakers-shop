@@ -2,12 +2,15 @@ import React from 'react';
 import user from '../Images/user(1).png';
 import cart from '../Images/shopping-cart.png';
 import favorite from '../Images/heart.png';
+import shoes from '../Images/shoes.png'
 import '../Styles/Header.css'
 
 class Header extends React.Component {
     render() {
         return (
             <header>
+                <img src={ shoes } alt="" className="principalSneaker"/>
+                <h1 className="adidas">Adidas.</h1>
                 <section className="topMenu">
                     <span><h1 className="title">adidas.</h1></span>
                     <span className="listAndIcons">

@@ -21,4 +21,26 @@ const sneakersData = [
     },
 ];
 
-export default sneakersData
+const sales = [
+    {
+        name: "Adidas Stacion",
+        price: "R$120,00",
+        image: "https://www.tennisstation.com.br/img/ADIDAS/originals/forum.png",
+        porcentage: "10%Off"
+    },
+    {
+        name: "Adidas Micro",
+        price: "R$80,00",
+        image: "https://www.tennisstation.com.br/img/ADIDAS/originals/star-slip-on-marinho.png",
+        porcentage: "20%Off"
+    },
+    {
+        name: "Adidas RedCan",
+        price: "R$155,00",
+        image: "https://www.tennisstation.com.br/img/ADIDAS/adidas-superstar-slip-on-vermelho.png",
+        porcentage: "13%Off"
+    },
+]
+
+export default sneakersData;
+export { sales }
