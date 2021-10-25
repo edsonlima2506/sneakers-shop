@@ -3,6 +3,14 @@
 <p>Sneakers Shop é um projeto que teve o intuito de explorar o CSS3 junto com o REACTJS <br>
   simulando uma loja de tênis, treinando habilidades de contrução de UI e funcionalidades reais utilizadas no dia-a-dia </p>
   
+# Resultado Final:
+
+
+
+https://user-images.githubusercontent.com/81549048/138626741-87445dcf-cdb5-49d9-bbcd-7273de961c9c.mp4
+
+
+  
   ## Instruções para baixar os arquivos
 
 ### Antes de começar a desenvolver
