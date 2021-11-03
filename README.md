@@ -1,7 +1,12 @@
 # Sneakers Shop
 
-<p>Sneakers Shop é um projeto que teve o intuito de explorar o CSS3 junto com o REACTJS <br>
-  simulando uma loja de tênis, treinando habilidades de contrução de UI e funcionalidades reais utilizadas no dia-a-dia </p>
+ Sneakers Shop é um projeto que teve o intuito de explorar o CSS3 junto com o REACTJS <br>
+simulando uma loja de tênis, treinando habilidades de contrução de UI e funcionalidades reais utilizadas no dia-a-dia
+  
+# Especificações técnicas
+
+Para o presente projeto foram utilizados conhecimentos em: HTML, CSS, REACTJS e Canva. O intuito príncipal <br>
+era criar um site com informações dinâmicas e com um design agradável e profissional.
   
 # Resultado Final:
 
